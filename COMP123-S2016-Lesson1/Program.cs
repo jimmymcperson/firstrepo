@@ -11,5 +11,17 @@ namespace COMP123_S2016_Lesson1
         static void Main(string[] args)
         {
         }
+        /**
+         * @description This is my Hello World Method
+         * @method HelloWorldToConsole
+         * @return (string) HelloWorldString
+         */
+
+        public static string HelloWorldToConsole()
+        {
+            string HelloWorldString = "Hello, World!";
+            Console.WriteLine(HelloWorldString);
+            return HelloWorldString;
+        }
     }
 }
